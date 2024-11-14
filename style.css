@@ -211,7 +211,7 @@ main {
 .comment-form button:hover {
     background-color: #1a4d8c;
 }
-/* WhatsApp Floating Button */
+
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -253,9 +253,8 @@ footer {
     margin-top: 40px;
 }
 
-/* style.css */
 
-/* Gaya untuk tombol toggle */
+
 .nav-toggle {
     display: none;
     font-size: 24px;
@@ -263,13 +262,13 @@ footer {
     color: white;
 }
 
-/* Mengatur ul sebagai dropdown */
+
 .nav-menu {
     list-style-type: none;
     display: flex;
 }
 
-/* Tampilan untuk layar kecil */
+
 @media (max-width: 768px) {
     .nav-toggle {
         display: block;
