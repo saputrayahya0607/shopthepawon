@@ -252,3 +252,51 @@ footer {
     padding: 10px 0;
     margin-top: 40px;
 }
+
+/* style.css */
+
+/* Gaya untuk tombol toggle */
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Mengatur ul sebagai dropdown */
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+/* Tampilan untuk layar kecil */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 8px;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+
+    .nav-menu li a {
+        color: white;
+        text-decoration: none;
+    }
+}
